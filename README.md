@@ -28,7 +28,7 @@ router.js: Route configuration file if you need to manage different pages.
 1. Clone this repository on your local machine : 
 
 ```bash
-  git clone https://github.com/MikeZuck1/menuIcon.git
+  git clone https://github.com/MikeZuck1/formValidation.git
 ```
 
 2. Install dependencies :
