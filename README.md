@@ -2,44 +2,6 @@
 
 Welcome to My Vite Project! This project is configured with Vite, a fast, modern project-building tool for web development. This project uses vanilla JavaScript (without frameworks like React or Vue) and is structured for simplicity and efficiency.
 
-## Project structure
-
-Here is an overview of the project structure :
-
-mon-projet/
-│
-├── public/
-│   ├── images/
-│   │   ├── logo.png
-│   │   └── background.jpg
-│   └── favicon.ico
-│
-├── src/
-│   ├── assets/
-│   │   ├── styles/
-│   │   │   ├── _variables.scss
-│   │   │   └── main.scss
-│   │   └── images/
-│   │       └── placeholder.png
-│   │
-│   ├── components/
-│   │   ├── formComponent.js
-│   │   └── inputField.js
-│   │
-│   ├── pages/
-│   │   ├── home.js
-│   │   └── contact.js
-│   │
-│   ├── app.js
-│   ├── main.js
-│   └── router.js
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-
 ## Description of folders and files
 public/: Contains publicly accessible static files, such as images and favicon.
 
