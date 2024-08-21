@@ -1,16 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Validation form</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="/src/assets/styles/main.css" />
+
+    <!-- CDN FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+      <form id="form">
+        <!-- TITLE FORM -->
+        <div class="title">Get Started</div>
 
-    <h1>Hello world</h1>
+        <!-- USER NAME INPUT -->
+        <div>
+          <label for="username">User Name</label>
+          <i class="fas fa-user"></i>
 
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="ex: Joy Shaheb"
+          />
 
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+        </div>
+
+        <!-- EMAIL INPUT -->
+        <div>
+          <label for="email">Email</label>
+          <i class="far fa-envelope"></i>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ex: abc@gmail.com"
+          />
+
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+        </div>
+
+        <!-- PASSWORD INPUT -->
+        <div>
+          <label for="password">Password</label>
+          <i class="fas fa-lock"></i>
+
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password here"
+          />
+
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+        </div>
+
+        <!-- other codes are here -->
+        <button id="btn" type="submit">Submit</button>
+
+      </form>
+    </div>
+
+    <!-- LINK TO THE PROJECT FILE - @VITE CONFIGURATION -->
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
